@@ -355,7 +355,7 @@ def get2_data(videoid):
                 authorId = t.get("channelId", "")
                 author = t.get("channelName", "")
                 author_icon = t.get("channelImage", "")
-                console.log(t)
+                print(t)
                 return stream_url, description, title, authorId, author, author_icon
             
         except Exception as e:
